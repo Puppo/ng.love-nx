@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@angular.love/home/pages": ["libs/home/pages/src/index.ts"],
-      "@angular.love/products/pages": ["libs/products/pages/src/index.ts"]
+      "@angular.love/products/pages": ["libs/products/pages/src/index.ts"],
+      "@angular.love/products/ui": ["libs/products/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -22,12 +22,20 @@
     },
     "lint": {
       "executor": "@nx/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["apps/e-commerce-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": [
+          "apps/e-commerce-e2e/**/*.{js,ts}"
+        ]
       }
     }
   },
-  "tags": [],
-  "implicitDependencies": ["e-commerce"]
+  "tags": [
+    "type:e2e"
+  ],
+  "implicitDependencies": [
+    "e-commerce"
+  ]
 }
